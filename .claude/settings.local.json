@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(powershell -Command \"Get-Process -Name ProcessWarden -ErrorAction SilentlyContinue | Stop-Process -Force\")",
+      "Bash(rm -f build/ProcessWarden.exe)",
+      "Bash(cmake -B build -G \"MinGW Makefiles\" -DCMAKE_PREFIX_PATH=D:/enireonment/Qt/5.14.2/mingw73_64 -DCMAKE_MAKE_PROGRAM=D:/enireonment/Qt/Tools/mingw730_64/bin/mingw32-make.exe -DCMAKE_CXX_COMPILER=D:/enireonment/Qt/Tools/mingw730_64/bin/g++.exe)",
+      "Bash(cmake --build build -- -j8)"
+    ]
+  }
+}

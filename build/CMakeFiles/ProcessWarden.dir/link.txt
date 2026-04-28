@@ -1,0 +1,3 @@
+D:\enireonment\Cmake\bin\cmake.exe -E rm -f CMakeFiles\ProcessWarden.dir/objects.a
+D:\enireonment\Qt\Tools\mingw730_64\bin\ar.exe qc CMakeFiles\ProcessWarden.dir/objects.a @CMakeFiles\ProcessWarden.dir\objects1.rsp
+D:\enireonment\Qt\Tools\mingw730_64\bin\g++.exe -mwindows -Wl,--whole-archive CMakeFiles\ProcessWarden.dir/objects.a -Wl,--no-whole-archive -o ProcessWarden.exe -Wl,--out-implib,libProcessWarden.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\ProcessWarden.dir\linkLibs.rsp

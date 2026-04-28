@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ProcessWarden — Main Window UI
+  ================================
+  WARNING: Do NOT open or save this file in Qt Designer.
+  Designer collapses widget name and objectName into a single
+  property, creating duplicate names that break compilation.
+
+  This file uses separate values for:
+    name        = C++ variable  (accessed as ui->xxx)
+    objectName  = stylesheet ID (matched by #xxx in QSS)
+
+  Edit this XML directly. Use a text editor.
+-->
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect><x>0</x><y>0</y><width>1400</width><height>900</height></rect>
+  </property>
+  <property name="minimumSize">
+   <size><width>1000</width><height>650</height></size>
+  </property>
+  <property name="windowTitle">
+   <string>ProcessWarden v1.2.4</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QVBoxLayout" name="mainLayout">
+    <property name="spacing"><number>0</number></property>
+    <property name="leftMargin"><number>0</number></property>
+    <property name="topMargin"><number>0</number></property>
+    <property name="rightMargin"><number>0</number></property>
+    <property name="bottomMargin"><number>0</number></property>
+    <item>
+     <!-- ============================================================ -->
+     <!-- Header                                                       -->
+     <!-- ============================================================ -->
+     <widget class="QWidget" name="headerWidget">
+      <property name="objectName"><string>header</string></property>
+      <property name="minimumSize"><size><width>0</width><height>80</height></size></property>
+      <property name="maximumSize"><size><width>16777215</width><height>80</height></size></property>
+      <layout class="QHBoxLayout" name="headerLayout">
+       <property name="leftMargin"><number>16</number></property>
+       <property name="topMargin"><number>0</number></property>
+       <property name="rightMargin"><number>16</number></property>
+       <property name="bottomMargin"><number>0</number></property>
+       <item>
+        <layout class="QHBoxLayout" name="leftBox">
+         <property name="spacing"><number>10</number></property>
+         <item>
+          <widget class="QLabel" name="headerIconLabel">
+           <property name="objectName"><string>headerIcon</string></property>
+           <property name="minimumSize"><size><width>48</width><height>48</height></size></property>
+           <property name="maximumSize"><size><width>48</width><height>48</height></size></property>
+           <property name="text"><string>&#xE000;</string></property>
+           <property name="alignment"><set>Qt::AlignCenter</set></property>
+          </widget>
+         </item>
+         <item>
+          <layout class="QVBoxLayout" name="titleBox">
+           <property name="spacing"><number>0</number></property>
+           <item>
+            <widget class="QLabel" name="headerTitleLabel">
+             <property name="objectName"><string>headerTitle</string></property>
+             <property name="text"><string>ProcessWarden</string></property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="headerVersionLabel">
+             <property name="objectName"><string>headerVersion</string></property>
+             <property name="text"><string>v1.2.4</string></property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <spacer name="leftBoxSpacer">
+           <property name="orientation"><enum>Qt::Horizontal</enum></property>
+           <property name="sizeType"><enum>QSizePolicy::Fixed</enum></property>
+           <property name="sizeHint" stdset="0"><size><width>12</width><height>20</height></size></property>
+          </spacer>
+         </item>
+         <item>
+          <widget class="QLabel" name="adminBadgeLabel">
+           <property name="objectName"><string>adminBadgeOk</string></property>
+           <property name="text"><string>●  Administrator Elevated</string></property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <spacer name="headerStretch">
+         <property name="orientation"><enum>Qt::Horizontal</enum></property>
+         <property name="sizeHint" stdset="0"><size><width>40</width><height>20</height></size></property>
+        </spacer>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="infoBox">
+         <property name="spacing"><number>24</number></property>
+         <item>
+          <layout class="QVBoxLayout" name="cpuLabel">
+           <property name="spacing"><number>0</number></property>
+           <item>
+            <widget class="QLabel" name="cpuLoadTitleLabel">
+             <property name="objectName"><string>sysTitle</string></property>
+             <property name="text"><string>System Load</string></property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="cpuLoadValueLabel">
+             <property name="objectName"><string>sysValue</string></property>
+             <property name="text"><string>-- %</string></property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QVBoxLayout" name="ramLabelBox">
+           <property name="spacing"><number>0</number></property>
+           <item>
+            <widget class="QLabel" name="ramTitleLabel">
+             <property name="objectName"><string>sysTitle</string></property>
+             <property name="text"><string>RAM Utilization</string></property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="ramValueLabel">
+             <property name="objectName"><string>sysValue</string></property>
+             <property name="text"><string>-- / -- GB</string></property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item>
+     <!-- ============================================================ -->
+     <!-- Splitter: Process Panel | Control Panel                      -->
+     <!-- ============================================================ -->
+     <widget class="QSplitter" name="splitter">
+      <property name="orientation"><enum>Qt::Horizontal</enum></property>
+      <property name="handleWidth"><number>1</number></property>
+      <!-- Left: Process Panel -->
+      <widget class="QWidget" name="processPanelWidget">
+       <property name="objectName"><string>panel</string></property>
+       <layout class="QVBoxLayout" name="processPanelLayout">
+        <property name="leftMargin"><number>8</number></property>
+        <property name="topMargin"><number>8</number></property>
+        <property name="rightMargin"><number>4</number></property>
+        <property name="bottomMargin"><number>8</number></property>
+        <property name="spacing"><number>6</number></property>
+        <item>
+         <layout class="QHBoxLayout" name="toolbar">
+          <item>
+           <widget class="QLabel" name="monitorTitleLabel">
+            <property name="objectName"><string>sectionTitle</string></property>
+            <property name="text"><string>Process Monitor</string></property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="processCountBadgeLabel">
+            <property name="objectName"><string>badge</string></property>
+            <property name="text"><string>0</string></property>
+           </widget>
+          </item>
+          <item>
+           <spacer name="toolbarSpacer">
+            <property name="orientation"><enum>Qt::Horizontal</enum></property>
+            <property name="sizeHint" stdset="0"><size><width>40</width><height>20</height></size></property>
+           </spacer>
+          </item>
+          <item>
+           <widget class="QPushButton" name="refreshButton">
+            <property name="objectName"><string>smallBtn</string></property>
+            <property name="text"><string>↻  Refresh</string></property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="speedButton">
+            <property name="objectName"><string>smallBtn</string></property>
+            <property name="text"><string>Refresh (3s)</string></property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <!-- ── Process type filter ── -->
+        <item>
+         <layout class="QHBoxLayout" name="typeitem">
+          <item>
+           <widget class="QLabel" name="filterTypeLabel">
+            <property name="objectName"><string>sectionTitle</string></property>
+            <property name="text"><string>Process Type</string></property>
+           </widget>
+          </item>
+          <item>
+           <spacer name="typeitemSpacer">
+            <property name="orientation"><enum>Qt::Horizontal</enum></property>
+            <property name="sizeHint" stdset="0"><size><width>40</width><height>20</height></size></property>
+           </spacer>
+          </item>
+          <item>
+           <widget class="QComboBox" name="filterTypeComboBox"/>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <widget class="QCheckBox" name="selectAllCheckBox">
+          <property name="text"><string/></property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QTableWidget" name="processTable">
+          <property name="objectName"><string>processTable</string></property>
+          <property name="columnCount"><number>6</number></property>
+          <property name="selectionBehavior"><enum>QAbstractItemView::SelectRows</enum></property>
+          <property name="editTriggers"><set>QAbstractItemView::NoEditTriggers</set></property>
+          <property name="showGrid"><bool>false</bool></property>
+          <property name="alternatingRowColors"><bool>true</bool></property>
+          <attribute name="horizontalHeaderVisible"><bool>true</bool></attribute>
+          <attribute name="verticalHeaderVisible"><bool>false</bool></attribute>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <!-- Right: Control Panel -->
+      <widget class="QWidget" name="controlPanelWidget">
+       <property name="objectName"><string>controlPanel</string></property>
+       <layout class="QVBoxLayout" name="controlPanelLayout">
+        <property name="leftMargin"><number>4</number></property>
+        <property name="topMargin"><number>8</number></property>
+        <property name="rightMargin"><number>8</number></property>
+        <property name="bottomMargin"><number>8</number></property>
+        <property name="spacing"><number>8</number></property>
+        <item>
+         <widget class="QGroupBox" name="searchGroupBox">
+          <property name="objectName"><string>ctrlGroup</string></property>
+          <property name="title"><string>Search &amp; Filter</string></property>
+          <layout class="QVBoxLayout" name="searchLayout">
+           <item>
+            <widget class="QLineEdit" name="searchLineEdit">
+             <property name="placeholderText"><string>Name or PID...</string></property>
+             <property name="clearButtonEnabled"><bool>true</bool></property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <widget class="QGroupBox" name="priorityGroupBox">
+          <property name="objectName"><string>ctrlGroup</string></property>
+          <property name="title"><string>Priority Class</string></property>
+          <layout class="QVBoxLayout" name="priorityLayout">
+           <item>
+            <widget class="QRadioButton" name="realtimeRadio">
+             <property name="objectName"><string>priRadio</string></property>
+             <property name="text"><string>Realtime</string></property>
+             <property name="toolTip"><string>Reserved for critical sub-systems</string></property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QRadioButton" name="highRadio">
+             <property name="objectName"><string>priRadio</string></property>
+             <property name="text"><string>High</string></property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QRadioButton" name="aboveNormalRadio">
+             <property name="objectName"><string>priRadio</string></property>
+             <property name="text"><string>Above Normal</string></property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QRadioButton" name="normalRadio">
+             <property name="objectName"><string>priRadio</string></property>
+             <property name="text"><string>Normal</string></property>
+             <property name="checked"><bool>true</bool></property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QRadioButton" name="belowNormalRadio">
+             <property name="objectName"><string>priRadio</string></property>
+             <property name="text"><string>Below Normal</string></property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QRadioButton" name="idleRadio">
+             <property name="objectName"><string>priRadio</string></property>
+             <property name="text"><string>Idle</string></property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <widget class="QGroupBox" name="affinityGroupBox">
+          <property name="objectName"><string>ctrlGroup</string></property>
+          <property name="title"><string>CPU Affinity</string></property>
+          <layout class="QVBoxLayout" name="affinityLayout">
+           <item>
+            <layout class="QHBoxLayout" name="quickRow">
+             <item>
+              <widget class="QPushButton" name="selectAllCoresButton">
+               <property name="objectName"><string>smallBtn</string></property>
+               <property name="text"><string>All Cores</string></property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="selectPhysicalCoresButton">
+               <property name="objectName"><string>smallBtn</string></property>
+               <property name="text"><string>Physical Only</string></property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="clearCoresButton">
+               <property name="objectName"><string>smallBtn</string></property>
+               <property name="text"><string>Clear</string></property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="applyButton">
+          <property name="objectName"><string>applyBtn</string></property>
+          <property name="enabled"><bool>false</bool></property>
+          <property name="text"><string>Apply to 0 Selected  →</string></property>
+         </widget>
+        </item>
+        <item>
+         <spacer name="controlPanelSpacer">
+          <property name="orientation"><enum>Qt::Vertical</enum></property>
+          <property name="sizeHint" stdset="0"><size><width>20</width><height>40</height></size></property>
+         </spacer>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusBar">
+   <widget class="QLabel" name="statusBarLabel">
+    <property name="objectName"><string>statusLabel</string></property>
+    <property name="text"><string>  ●  System Ready</string></property>
+   </widget>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
