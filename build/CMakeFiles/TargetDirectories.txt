@@ -1,0 +1,4 @@
+D:/enireonment/python_project/processwarden/processwarden-qt/build/CMakeFiles/ProcessWarden.dir
+D:/enireonment/python_project/processwarden/processwarden-qt/build/CMakeFiles/edit_cache.dir
+D:/enireonment/python_project/processwarden/processwarden-qt/build/CMakeFiles/rebuild_cache.dir
+D:/enireonment/python_project/processwarden/processwarden-qt/build/CMakeFiles/ProcessWarden_autogen.dir

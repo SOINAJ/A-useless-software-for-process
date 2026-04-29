@@ -13,7 +13,9 @@
       "Bash(rm -f Makefile)",
       "Bash(rm -f cmake_install.cmake)",
       "Bash(grep -E \"\\\\.dll$\")",
-      "Bash(git *)"
+      "Bash(git *)",
+      "Bash(powershell -Command \"Get-Process -Name ProcessWarden -ErrorAction SilentlyContinue | Stop-Process -Force; Start-Sleep -Seconds 1\")",
+      "Bash(powershell *)"
     ]
   }
 }

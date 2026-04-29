@@ -238,12 +238,18 @@ void MainWindow::populateTable()
     }
 
     int displayed = 0;
+    int comboIndex = ui->filterTypeComboBox->currentIndex();
     for (const auto& proc : processOrder) {
         // Type filter first — narrow to the selected category
-        int comboIndex = ui->filterTypeComboBox->currentIndex();
         if (comboIndex > 0) {
             QString key = ui->filterTypeComboBox->currentText();
-            if (!allProcessData.value(key).contains(proc.name))
+            const QStringList& names = allProcessData.value(key);
+            // Match if proc.name starts with any configured name (case-insensitive).
+            // This handles e.g. config "Sguard" matching "SGuard.exe", "SGuardSvc.exe", etc.
+            auto nameMatches = [&](const QString& n) {
+                return proc.name.startsWith(n, Qt::CaseInsensitive);
+            };
+            if (std::none_of(names.begin(), names.end(), nameMatches))
                 continue;
         }
 
