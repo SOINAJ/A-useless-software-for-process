@@ -204,6 +204,16 @@
           <item>
            <widget class="QComboBox" name="filterTypeComboBox"/>
           </item>
+          <item>
+           <widget class="QPushButton" name="typeConfigButton">
+            <property name="objectName">
+             <string>smallBtn</string>
+            </property>
+            <property name="text">
+             <string>Type Configuration</string>
+            </property>
+           </widget>
+          </item>
          </layout>
         </item>
         <item>

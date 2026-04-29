@@ -33,6 +33,7 @@ private slots:
     void onClearCores();
     void onApply();
     void onFilterTypeChanged(int index);
+    void openType();
 
 private:
     void setupDynamicUi();

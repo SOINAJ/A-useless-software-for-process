@@ -55,7 +55,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = D:\enireonment\python_project\processwarden\processwarden-qt
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\enireonment\python_project\processwarden\processwarden-qt\build
+CMAKE_BINARY_DIR = D:\enireonment\python_project\processwarden\processwarden-qt\Release_x64_win
 
 # Utility rule file for ProcessWarden_autogen.
 
@@ -66,8 +66,8 @@ include CMakeFiles/ProcessWarden_autogen.dir/compiler_depend.make
 include CMakeFiles/ProcessWarden_autogen.dir/progress.make
 
 CMakeFiles/ProcessWarden_autogen:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=D:\enireonment\python_project\processwarden\processwarden-qt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target ProcessWarden"
-	D:\enireonment\Cmake\bin\cmake.exe -E cmake_autogen D:/enireonment/python_project/processwarden/processwarden-qt/build/CMakeFiles/ProcessWarden_autogen.dir/AutogenInfo.json ""
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=D:\enireonment\python_project\processwarden\processwarden-qt\Release_x64_win\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target ProcessWarden"
+	D:\enireonment\Cmake\bin\cmake.exe -E cmake_autogen D:/enireonment/python_project/processwarden/processwarden-qt/Release_x64_win/CMakeFiles/ProcessWarden_autogen.dir/AutogenInfo.json ""
 
 ProcessWarden_autogen: CMakeFiles/ProcessWarden_autogen
 ProcessWarden_autogen: CMakeFiles/ProcessWarden_autogen.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/ProcessWarden_autogen.dir/clean:
 .PHONY : CMakeFiles/ProcessWarden_autogen.dir/clean
 
 CMakeFiles/ProcessWarden_autogen.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\enireonment\python_project\processwarden\processwarden-qt D:\enireonment\python_project\processwarden\processwarden-qt D:\enireonment\python_project\processwarden\processwarden-qt\build D:\enireonment\python_project\processwarden\processwarden-qt\build D:\enireonment\python_project\processwarden\processwarden-qt\build\CMakeFiles\ProcessWarden_autogen.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\enireonment\python_project\processwarden\processwarden-qt D:\enireonment\python_project\processwarden\processwarden-qt D:\enireonment\python_project\processwarden\processwarden-qt\Release_x64_win D:\enireonment\python_project\processwarden\processwarden-qt\Release_x64_win D:\enireonment\python_project\processwarden\processwarden-qt\Release_x64_win\CMakeFiles\ProcessWarden_autogen.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ProcessWarden_autogen.dir/depend
 

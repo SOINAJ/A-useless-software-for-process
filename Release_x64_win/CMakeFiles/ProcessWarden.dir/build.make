@@ -55,7 +55,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = D:\enireonment\python_project\processwarden\processwarden-qt
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\enireonment\python_project\processwarden\processwarden-qt\build
+CMAKE_BINARY_DIR = D:\enireonment\python_project\processwarden\processwarden-qt\Release_x64_win
 
 # Include any dependencies generated for this target.
 include CMakeFiles/ProcessWarden.dir/depend.make
@@ -72,22 +72,22 @@ CMakeFiles/ProcessWarden.dir/ProcessWarden_autogen/mocs_compilation.cpp.obj: CMa
 CMakeFiles/ProcessWarden.dir/ProcessWarden_autogen/mocs_compilation.cpp.obj: CMakeFiles/ProcessWarden.dir/includes_CXX.rsp
 CMakeFiles/ProcessWarden.dir/ProcessWarden_autogen/mocs_compilation.cpp.obj: ProcessWarden_autogen/mocs_compilation.cpp
 CMakeFiles/ProcessWarden.dir/ProcessWarden_autogen/mocs_compilation.cpp.obj: CMakeFiles/ProcessWarden.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\enireonment\python_project\processwarden\processwarden-qt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ProcessWarden.dir/ProcessWarden_autogen/mocs_compilation.cpp.obj"
-	D:\enireonment\Qt\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ProcessWarden.dir/ProcessWarden_autogen/mocs_compilation.cpp.obj -MF CMakeFiles\ProcessWarden.dir\ProcessWarden_autogen\mocs_compilation.cpp.obj.d -o CMakeFiles\ProcessWarden.dir\ProcessWarden_autogen\mocs_compilation.cpp.obj -c D:\enireonment\python_project\processwarden\processwarden-qt\build\ProcessWarden_autogen\mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\enireonment\python_project\processwarden\processwarden-qt\Release_x64_win\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ProcessWarden.dir/ProcessWarden_autogen/mocs_compilation.cpp.obj"
+	D:\enireonment\Qt\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ProcessWarden.dir/ProcessWarden_autogen/mocs_compilation.cpp.obj -MF CMakeFiles\ProcessWarden.dir\ProcessWarden_autogen\mocs_compilation.cpp.obj.d -o CMakeFiles\ProcessWarden.dir\ProcessWarden_autogen\mocs_compilation.cpp.obj -c D:\enireonment\python_project\processwarden\processwarden-qt\Release_x64_win\ProcessWarden_autogen\mocs_compilation.cpp
 
 CMakeFiles/ProcessWarden.dir/ProcessWarden_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ProcessWarden.dir/ProcessWarden_autogen/mocs_compilation.cpp.i"
-	D:\enireonment\Qt\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\enireonment\python_project\processwarden\processwarden-qt\build\ProcessWarden_autogen\mocs_compilation.cpp > CMakeFiles\ProcessWarden.dir\ProcessWarden_autogen\mocs_compilation.cpp.i
+	D:\enireonment\Qt\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\enireonment\python_project\processwarden\processwarden-qt\Release_x64_win\ProcessWarden_autogen\mocs_compilation.cpp > CMakeFiles\ProcessWarden.dir\ProcessWarden_autogen\mocs_compilation.cpp.i
 
 CMakeFiles/ProcessWarden.dir/ProcessWarden_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ProcessWarden.dir/ProcessWarden_autogen/mocs_compilation.cpp.s"
-	D:\enireonment\Qt\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\enireonment\python_project\processwarden\processwarden-qt\build\ProcessWarden_autogen\mocs_compilation.cpp -o CMakeFiles\ProcessWarden.dir\ProcessWarden_autogen\mocs_compilation.cpp.s
+	D:\enireonment\Qt\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\enireonment\python_project\processwarden\processwarden-qt\Release_x64_win\ProcessWarden_autogen\mocs_compilation.cpp -o CMakeFiles\ProcessWarden.dir\ProcessWarden_autogen\mocs_compilation.cpp.s
 
 CMakeFiles/ProcessWarden.dir/src/main.cpp.obj: CMakeFiles/ProcessWarden.dir/flags.make
 CMakeFiles/ProcessWarden.dir/src/main.cpp.obj: CMakeFiles/ProcessWarden.dir/includes_CXX.rsp
 CMakeFiles/ProcessWarden.dir/src/main.cpp.obj: D:/enireonment/python_project/processwarden/processwarden-qt/src/main.cpp
 CMakeFiles/ProcessWarden.dir/src/main.cpp.obj: CMakeFiles/ProcessWarden.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\enireonment\python_project\processwarden\processwarden-qt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ProcessWarden.dir/src/main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\enireonment\python_project\processwarden\processwarden-qt\Release_x64_win\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ProcessWarden.dir/src/main.cpp.obj"
 	D:\enireonment\Qt\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ProcessWarden.dir/src/main.cpp.obj -MF CMakeFiles\ProcessWarden.dir\src\main.cpp.obj.d -o CMakeFiles\ProcessWarden.dir\src\main.cpp.obj -c D:\enireonment\python_project\processwarden\processwarden-qt\src\main.cpp
 
 CMakeFiles/ProcessWarden.dir/src/main.cpp.i: cmake_force
@@ -102,7 +102,7 @@ CMakeFiles/ProcessWarden.dir/src/mainwindow.cpp.obj: CMakeFiles/ProcessWarden.di
 CMakeFiles/ProcessWarden.dir/src/mainwindow.cpp.obj: CMakeFiles/ProcessWarden.dir/includes_CXX.rsp
 CMakeFiles/ProcessWarden.dir/src/mainwindow.cpp.obj: D:/enireonment/python_project/processwarden/processwarden-qt/src/mainwindow.cpp
 CMakeFiles/ProcessWarden.dir/src/mainwindow.cpp.obj: CMakeFiles/ProcessWarden.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\enireonment\python_project\processwarden\processwarden-qt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ProcessWarden.dir/src/mainwindow.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\enireonment\python_project\processwarden\processwarden-qt\Release_x64_win\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ProcessWarden.dir/src/mainwindow.cpp.obj"
 	D:\enireonment\Qt\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ProcessWarden.dir/src/mainwindow.cpp.obj -MF CMakeFiles\ProcessWarden.dir\src\mainwindow.cpp.obj.d -o CMakeFiles\ProcessWarden.dir\src\mainwindow.cpp.obj -c D:\enireonment\python_project\processwarden\processwarden-qt\src\mainwindow.cpp
 
 CMakeFiles/ProcessWarden.dir/src/mainwindow.cpp.i: cmake_force
@@ -117,7 +117,7 @@ CMakeFiles/ProcessWarden.dir/src/processmanager.cpp.obj: CMakeFiles/ProcessWarde
 CMakeFiles/ProcessWarden.dir/src/processmanager.cpp.obj: CMakeFiles/ProcessWarden.dir/includes_CXX.rsp
 CMakeFiles/ProcessWarden.dir/src/processmanager.cpp.obj: D:/enireonment/python_project/processwarden/processwarden-qt/src/processmanager.cpp
 CMakeFiles/ProcessWarden.dir/src/processmanager.cpp.obj: CMakeFiles/ProcessWarden.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\enireonment\python_project\processwarden\processwarden-qt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ProcessWarden.dir/src/processmanager.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\enireonment\python_project\processwarden\processwarden-qt\Release_x64_win\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ProcessWarden.dir/src/processmanager.cpp.obj"
 	D:\enireonment\Qt\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ProcessWarden.dir/src/processmanager.cpp.obj -MF CMakeFiles\ProcessWarden.dir\src\processmanager.cpp.obj.d -o CMakeFiles\ProcessWarden.dir\src\processmanager.cpp.obj -c D:\enireonment\python_project\processwarden\processwarden-qt\src\processmanager.cpp
 
 CMakeFiles/ProcessWarden.dir/src/processmanager.cpp.i: cmake_force
@@ -132,7 +132,7 @@ CMakeFiles/ProcessWarden.dir/src/filetools.cpp.obj: CMakeFiles/ProcessWarden.dir
 CMakeFiles/ProcessWarden.dir/src/filetools.cpp.obj: CMakeFiles/ProcessWarden.dir/includes_CXX.rsp
 CMakeFiles/ProcessWarden.dir/src/filetools.cpp.obj: D:/enireonment/python_project/processwarden/processwarden-qt/src/filetools.cpp
 CMakeFiles/ProcessWarden.dir/src/filetools.cpp.obj: CMakeFiles/ProcessWarden.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\enireonment\python_project\processwarden\processwarden-qt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ProcessWarden.dir/src/filetools.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\enireonment\python_project\processwarden\processwarden-qt\Release_x64_win\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ProcessWarden.dir/src/filetools.cpp.obj"
 	D:\enireonment\Qt\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ProcessWarden.dir/src/filetools.cpp.obj -MF CMakeFiles\ProcessWarden.dir\src\filetools.cpp.obj.d -o CMakeFiles\ProcessWarden.dir\src\filetools.cpp.obj -c D:\enireonment\python_project\processwarden\processwarden-qt\src\filetools.cpp
 
 CMakeFiles/ProcessWarden.dir/src/filetools.cpp.i: cmake_force
@@ -167,7 +167,7 @@ ProcessWarden.exe: D:/enireonment/Qt/5.14.2/mingw73_64/lib/libqtmain.a
 ProcessWarden.exe: CMakeFiles/ProcessWarden.dir/linkLibs.rsp
 ProcessWarden.exe: CMakeFiles/ProcessWarden.dir/objects1.rsp
 ProcessWarden.exe: CMakeFiles/ProcessWarden.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\enireonment\python_project\processwarden\processwarden-qt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable ProcessWarden.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\enireonment\python_project\processwarden\processwarden-qt\Release_x64_win\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable ProcessWarden.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\ProcessWarden.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -179,6 +179,6 @@ CMakeFiles/ProcessWarden.dir/clean:
 .PHONY : CMakeFiles/ProcessWarden.dir/clean
 
 CMakeFiles/ProcessWarden.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\enireonment\python_project\processwarden\processwarden-qt D:\enireonment\python_project\processwarden\processwarden-qt D:\enireonment\python_project\processwarden\processwarden-qt\build D:\enireonment\python_project\processwarden\processwarden-qt\build D:\enireonment\python_project\processwarden\processwarden-qt\build\CMakeFiles\ProcessWarden.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\enireonment\python_project\processwarden\processwarden-qt D:\enireonment\python_project\processwarden\processwarden-qt D:\enireonment\python_project\processwarden\processwarden-qt\Release_x64_win D:\enireonment\python_project\processwarden\processwarden-qt\Release_x64_win D:\enireonment\python_project\processwarden\processwarden-qt\Release_x64_win\CMakeFiles\ProcessWarden.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ProcessWarden.dir/depend
 

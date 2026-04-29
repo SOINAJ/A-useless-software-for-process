@@ -511,7 +511,7 @@ CMakeFiles/ProcessWarden.dir/src/mainwindow.cpp.obj: \
  D:/enireonment/Qt/Tools/mingw730_64/x86_64-w64-mingw32/include/imm.h \
  D:/enireonment/Qt/5.14.2/mingw73_64/include/QtCore/QString \
  D:/enireonment/Qt/5.14.2/mingw73_64/include/QtCore/qstring.h \
- D:/enireonment/python_project/processwarden/processwarden-qt/build/ProcessWarden_autogen/include/ui_mainwindow.h \
+ D:/enireonment/python_project/processwarden/processwarden-qt/Release_x64_win/ProcessWarden_autogen/include/ui_mainwindow.h \
  D:/enireonment/Qt/5.14.2/mingw73_64/include/QtCore/QVariant \
  D:/enireonment/Qt/5.14.2/mingw73_64/include/QtCore/qvariant.h \
  D:/enireonment/Qt/5.14.2/mingw73_64/include/QtWidgets/QApplication \
@@ -588,4 +588,9 @@ CMakeFiles/ProcessWarden.dir/src/mainwindow.cpp.obj: \
  D:/enireonment/Qt/5.14.2/mingw73_64/include/QtCore/QDateTime \
  D:/enireonment/Qt/5.14.2/mingw73_64/include/QtCore/qdatetime.h \
  D:/enireonment/Qt/5.14.2/mingw73_64/include/QtCore/QCoreApplication \
- D:/enireonment/Qt/5.14.2/mingw73_64/include/QtCore/qcoreapplication.h
+ D:/enireonment/Qt/5.14.2/mingw73_64/include/QtCore/qcoreapplication.h \
+ D:/enireonment/Qt/5.14.2/mingw73_64/include/QtGui/QDesktopServices \
+ D:/enireonment/Qt/5.14.2/mingw73_64/include/QtGui/qdesktopservices.h \
+ D:/enireonment/Qt/5.14.2/mingw73_64/include/QtCore/qstandardpaths.h \
+ D:/enireonment/Qt/5.14.2/mingw73_64/include/QtCore/QUrl \
+ D:/enireonment/Qt/5.14.2/mingw73_64/include/QtCore/qurl.h

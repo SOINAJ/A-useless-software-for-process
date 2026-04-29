@@ -24,7 +24,7 @@ set(CMAKE_CXX_SIMULATE_VERSION "")
 
 set(CMAKE_AR "D:/enireonment/Qt/Tools/mingw730_64/bin/ar.exe")
 set(CMAKE_CXX_COMPILER_AR "D:/enireonment/Qt/Tools/mingw730_64/bin/gcc-ar.exe")
-set(CMAKE_RANLIB ":")
+set(CMAKE_RANLIB "D:/enireonment/Qt/Tools/mingw730_64/bin/ranlib.exe")
 set(CMAKE_CXX_COMPILER_RANLIB "D:/enireonment/Qt/Tools/mingw730_64/bin/gcc-ranlib.exe")
 set(CMAKE_LINKER "D:/enireonment/Qt/Tools/mingw730_64/bin/ld.exe")
 set(CMAKE_MT "")

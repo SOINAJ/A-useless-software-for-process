@@ -18,6 +18,8 @@
 #include "filetools.h"
 
 #include <QCoreApplication>
+#include <QDesktopServices>
+#include <QUrl>
 
 // ────────────────────────────────────────────────────────────────
 // Construction
@@ -155,6 +157,8 @@ void MainWindow::setupDynamicUi()
             this, &MainWindow::onClearCores);
     connect(ui->applyButton, &QPushButton::clicked,
             this, &MainWindow::onApply);
+    connect(ui->typeConfigButton, &QPushButton::clicked,
+            this, &MainWindow::openType);
 
     // ── Filter type combo (user-added widget) ──
     loadProcessItems();
@@ -418,6 +422,12 @@ void MainWindow::onAffinityToggled()
     bool canApply = (mask != 0) && (selCount > 0);
     ui->applyButton->setEnabled(canApply);
     ui->applyButton->setText(QStringLiteral("Apply to %1 Selected  →").arg(selCount));
+}
+
+void MainWindow::openType()
+{
+    QString filePath = QCoreApplication::applicationDirPath() + QStringLiteral("/processItem.txt");
+    QDesktopServices::openUrl(QUrl::fromLocalFile(filePath));
 }
 
 void MainWindow::onSelectAllCores()

@@ -1,6 +1,6 @@
 CMakeFiles/ProcessWarden.dir/ProcessWarden_autogen/mocs_compilation.cpp.obj: \
- D:\enireonment\python_project\processwarden\processwarden-qt\build\ProcessWarden_autogen\mocs_compilation.cpp \
- D:\enireonment\python_project\processwarden\processwarden-qt\build\ProcessWarden_autogen\UVLADIE3JM/moc_mainwindow.cpp \
+ D:\enireonment\python_project\processwarden\processwarden-qt\Release_x64_win\ProcessWarden_autogen\mocs_compilation.cpp \
+ D:\enireonment\python_project\processwarden\processwarden-qt\Release_x64_win\ProcessWarden_autogen\UVLADIE3JM/moc_mainwindow.cpp \
  D:/enireonment/Qt/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/memory \
  D:/enireonment/Qt/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/stl_algobase.h \
  D:/enireonment/Qt/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \

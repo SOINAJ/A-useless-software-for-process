@@ -3,7 +3,7 @@
 
 # Relative path conversion top directories.
 set(CMAKE_RELATIVE_PATH_TOP_SOURCE "D:/enireonment/python_project/processwarden/processwarden-qt")
-set(CMAKE_RELATIVE_PATH_TOP_BINARY "D:/enireonment/python_project/processwarden/processwarden-qt/build")
+set(CMAKE_RELATIVE_PATH_TOP_BINARY "D:/enireonment/python_project/processwarden/processwarden-qt/Release_x64_win")
 
 # Force unix paths in dependencies.
 set(CMAKE_FORCE_UNIX_PATHS 1)

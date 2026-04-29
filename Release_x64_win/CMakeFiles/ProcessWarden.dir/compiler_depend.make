@@ -1898,7 +1898,12 @@ CMakeFiles/ProcessWarden.dir/src/mainwindow.cpp.obj: D:/enireonment/python_proje
   D:/enireonment/Qt/5.14.2/mingw73_64/include/QtCore/QDateTime \
   D:/enireonment/Qt/5.14.2/mingw73_64/include/QtCore/qdatetime.h \
   D:/enireonment/Qt/5.14.2/mingw73_64/include/QtCore/QCoreApplication \
-  D:/enireonment/Qt/5.14.2/mingw73_64/include/QtCore/qcoreapplication.h
+  D:/enireonment/Qt/5.14.2/mingw73_64/include/QtCore/qcoreapplication.h \
+  D:/enireonment/Qt/5.14.2/mingw73_64/include/QtGui/QDesktopServices \
+  D:/enireonment/Qt/5.14.2/mingw73_64/include/QtGui/qdesktopservices.h \
+  D:/enireonment/Qt/5.14.2/mingw73_64/include/QtCore/qstandardpaths.h \
+  D:/enireonment/Qt/5.14.2/mingw73_64/include/QtCore/QUrl \
+  D:/enireonment/Qt/5.14.2/mingw73_64/include/QtCore/qurl.h
 
 CMakeFiles/ProcessWarden.dir/src/processmanager.cpp.obj: D:/enireonment/python_project/processwarden/processwarden-qt/src/processmanager.cpp \
   D:/enireonment/python_project/processwarden/processwarden-qt/src/processmanager.h \
@@ -2348,6 +2353,8 @@ D:/enireonment/Qt/Tools/mingw730_64/x86_64-w64-mingw32/include/winapifamily.h:
 
 D:/enireonment/Qt/Tools/mingw730_64/x86_64-w64-mingw32/include/processthreadsapi.h:
 
+D:/enireonment/Qt/5.14.2/mingw73_64/include/QtCore/QUrl:
+
 D:/enireonment/Qt/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/stl_algobase.h:
 
 D:/enireonment/Qt/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/exception:
@@ -2773,6 +2780,8 @@ D:/enireonment/Qt/Tools/mingw730_64/x86_64-w64-mingw32/include/rpcdce.h:
 D:/enireonment/Qt/5.14.2/mingw73_64/include/QtCore/QTimer:
 
 D:/enireonment/Qt/Tools/mingw730_64/x86_64-w64-mingw32/include/lzexpand.h:
+
+D:/enireonment/Qt/5.14.2/mingw73_64/include/QtCore/qstandardpaths.h:
 
 D:/enireonment/Qt/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/atomic_lockfree_defines.h:
 
@@ -3408,6 +3417,8 @@ D:/enireonment/Qt/5.14.2/mingw73_64/include/QtGui/qinputmethod.h:
 
 D:/enireonment/Qt/5.14.2/mingw73_64/include/QtCore/QPair:
 
+D:/enireonment/Qt/5.14.2/mingw73_64/include/QtGui/QDesktopServices:
+
 ProcessWarden_autogen/include/ui_mainwindow.h:
 
 D:/enireonment/Qt/5.14.2/mingw73_64/include/QtWidgets/QComboBox:
@@ -3451,5 +3462,9 @@ D:/enireonment/Qt/5.14.2/mingw73_64/include/QtWidgets/QWidget:
 D:/enireonment/Qt/5.14.2/mingw73_64/include/QtWidgets/qmessagebox.h:
 
 D:/enireonment/Qt/5.14.2/mingw73_64/include/QtCore/QCoreApplication:
+
+D:/enireonment/Qt/5.14.2/mingw73_64/include/QtGui/qdesktopservices.h:
+
+D:/enireonment/Qt/5.14.2/mingw73_64/include/QtCore/qurl.h:
 
 D:/enireonment/Qt/Tools/mingw730_64/x86_64-w64-mingw32/include/sddl.h:

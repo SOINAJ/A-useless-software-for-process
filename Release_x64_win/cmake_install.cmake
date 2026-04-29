@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/enireonment/python_project/processwarden/processwarden-qt/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/enireonment/python_project/processwarden/processwarden-qt/Release_x64_win/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

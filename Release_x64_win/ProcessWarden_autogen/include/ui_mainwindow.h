@@ -65,6 +65,7 @@ public:
     QLabel *filterTypeLabel;
     QSpacerItem *typeitemSpacer;
     QComboBox *filterTypeComboBox;
+    QPushButton *typeConfigButton;
     QCheckBox *selectAllCheckBox;
     QTableWidget *processTable;
     QWidget *controlPanelWidget;
@@ -255,6 +256,11 @@ public:
 
         typeitem->addWidget(filterTypeComboBox);
 
+        typeConfigButton = new QPushButton(processPanelWidget);
+        typeConfigButton->setObjectName(QString::fromUtf8("typeConfigButton"));
+
+        typeitem->addWidget(typeConfigButton);
+
 
         processPanelLayout->addLayout(typeitem);
 
@@ -425,6 +431,8 @@ public:
         speedButton->setText(QCoreApplication::translate("MainWindow", "Refresh (3s)", nullptr));
         filterTypeLabel->setObjectName(QCoreApplication::translate("MainWindow", "sectionTitle", nullptr));
         filterTypeLabel->setText(QCoreApplication::translate("MainWindow", "Process Type", nullptr));
+        typeConfigButton->setObjectName(QCoreApplication::translate("MainWindow", "smallBtn", nullptr));
+        typeConfigButton->setText(QCoreApplication::translate("MainWindow", "Type Configuration", nullptr));
         selectAllCheckBox->setText(QString());
         controlPanelWidget->setObjectName(QCoreApplication::translate("MainWindow", "controlPanel", nullptr));
         searchGroupBox->setObjectName(QCoreApplication::translate("MainWindow", "ctrlGroup", nullptr));
